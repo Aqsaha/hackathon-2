@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        *{
+            margin: 0px;
+            font-family: sans-serif;
+            padding: 0px;
+        }
+        .navbar{
+            background-color: purple;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+     <!-- navbar -->
+
+
+     <div class="navbar">
+        <!-- <div class="heading"> -->
+            <h2> Aqsa Blogging App</h2>
+        </div>
+        <div class="logsinbtn">
+            <a style="text-decoration: none; color: white; cursor: pointer;" style="display: none;"  id="userss"><p style="display: none;" >User</p></a> 
+            <a style="text-decoration: none; color: white; cursor: pointer;" id="logout" style="display: none;" id="logout"><p style="display: none;"  id="logout1">Login</p></a> 
+            <a style="text-decoration: none; color: white; cursor: pointer;" href="./index.html"><p id="loginmain" >Home</p></a> 
+
+        </div>
+    </div>
+
+
+    <!-- navbar -->
+
+<!-- heading -->
+<div class="signupheading">
+    <div class="signupheading1">
+        <h1>Update</h1>
+    </div>
+    </div>
+    <!-- heading -->
+
+<div style="display: flex; justify-content: flex-start; align-items: center;background-color: transparent;margin-top: 20px;">
+    <div class="updatecontainer" style="margin-left: 120px; background-color: white; width: 60%; padding:20px;">
+        <img style="width: 270px; height: 220px; border-radius: 20px;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBAREREPDxEREBIPEBAREQ8QEhESERAPGBQZGRgUGBgcIS4lHB8rIRYYJzgmLC81NTY1HCRIQD4zPy41NTEBDAwMEA8QHhISHj8sIyU0NDQxNDUxNDQ0NDQ0NDQxNDQ0NDc2NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ9NTQ0MTQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQIGBwQFCAP/xABEEAACAQMABQYJCwIFBQAAAAAAAQIDBBEFBhIhMQcTQVFhcRciMlOBgpGj0hQjQlJUYnKSobHBosIkM0OzwxVjdLLR/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAEDBAIFBv/EADARAQABAwIDBgQGAwAAAAAAAAABAgMRBDEhUdEFEhMVU6EygZHwIkFDYXHBM7Hh/9oADAMBAAIRAxEAPwDbYAAAAAAAAAAAnBOAIGCcEgVwMFsDAFcDBbAwBXALEYAqC2CMAQAAAAAAAAAAAAAAAAAAABOABOBgnADAGCcAQCTGdbddLXRkdmpmrcSjtQtoNbeOiU5cIR7Xve/CeGBk+Bg0JpLlO0tWk3SqU7SGd0aNOE3jqlKopNvtSXccSryhaYlBQd41veZwp0ITa6nJR/bDA9DYGDzFLT+kJPMr69bfT8ruPiOdo/XXStBpwvq80nnZry5+L7HzmXjuaA9HYIwau1b5WYTcaek6Sp5ePlNupOC7Z023KK4b4uXckbOt68KsIVKU41Kc4qUJwkpQnF8GmtzQFxgnBGAIwQWwMAUBOCAAAAAAAAAAAAAEoAkWQQAYJBIAFjh6Tv6drQq3NaWzTowlOT6cLoS6W3hJdLaAx3X7W6OjaCUNmd1XUlRg96glxqyX1V0LpfZlrQFzcTqznVqzlUnUk5TnJ5lKT6Wzm6f0xVvrmrd1/Kqy8WOcxpU15FOPYl7Xl9J1wAAEAAABk2pmuNfRlRJbVW1nLNW3zwzxnTzujP8ASXB9DWMgD1No+9pXFKFxQkp0qsVOnKPBxf7Poae9NM5Jo3kr1qdpcKyry/w11NKLb3ULl7oy7Iy3RfbsvrN54JFSMFiAIaIZIaAoCWQAAAAAAAABKJQRKAlAEoAWAAGoOWTWLbnDRdJ+LTcK100+M2s06b7k9t98eo21eXMKNOpWqPEKNOdSb6owi5SfsR5av7ydxVq3NTy69SVWe/OJTk3hdizhdiQHwLU6c5yjCEdqc5RhCK4ynJ4jH0tpFTOeS3QnP3Tu5r5uz8jPCVzJeKvVi3LvcCJnEZTEZnCuu2pErOnC5ts1KUKdOFyuMoVYxUXW/BJ739Vvqe7CD0zKCknGSUlJNOLSalFrDTT4o09r1qRK0crq0i5WzblOmsuVt/8AYdv0endvK6K88JWV0Y4wwcAFioAABo31yZa0u/tnRry2rq0UY1JPjVpPKhV79zUu1Z+kjQp3+o2mHZaRtq7eKc58xW6nRqNRbfZF7M/VJHpIqWYAoGSQBDKsuyrAqCSAAAAEogsgJRKIRKAFyqLAACQMR5Urx0dEXWy8Src3QXbGc4qa/Jtnns3Vy3VmrK1gn5d4m11qNGp/MkaVA+1rbTqzhRpRc51ZxpwgvpTk8Jdi7ehHoLV3Q8LG1pW0PG2I5qTxjnKst85el8OpJLoMK5LNW9iP/Uq0fGnFxtYtb403ulV75cF93P1jZBRcqzOIXW6ccQhrO5709zT4NEgrWtYa5cnrW1daNhu3upZx6OuVL4Py9ETWjTTaaaabTTTTTW5profYemjFtatSrW/zUXzFzjdXhHKqbtyqR+mu3c+3G4spuY3VVW+TRoO107q9d2E9i5p7MZPEK0Myo1Pwyxx+68PsOqLoUhEllNPpWCQB6b1Uv3dWFpcyeZVbak5v/uKKU/6kztjEuSx50Nadjul7LmqjLSQKssVYEMhkshgVZBZlQAAAklEIsgJQQRKAsCESBIBKA1Xy5S+bsI9dS4l6VCC/uMD1J1alpC5UZpq3o7M681u2l9Gkn1yw+5J9hnnLlD5qxl1Va8fbCL/tOByN1/FvaX1ZW9ResqkX/wCiOa5mIzDqmMzhsmMFFKMUoxilGMUsKMUsJJdCLAGZpAAAAAHyuKEKkJU6kITpzWzOE4qUJR6nF7mYDrByZUZ7U7Cfyeby+YqOU6LfVGW+UP6l1JGwwTEzGzmaYnd530xoC8s3i5oTgs4VRLbpPunHK9Dw+w6w3Hys19nR8IeduqUPRGE5/vBGnC+mrMZUVRicN+8kVTa0RRX1K1zH21pS/uM1Nc8idxtWNzTf+neSaXVGdKm/3UjYx25QyGSAKshkshgVZDLMqwIAAEosiqLICUSQiQLAACSSCQNX8uM18nsofSdzUmuvZjTaf6ziYzyQ3GzeXFLzlrt+mFSK/wCRnO5brxTu7S3T30LedR99WaS/Sj+pj3J3W5rSdrl7q8KtN9ilTckvzRic1xmmXVO8N4gjJBlaVgVJAkEZIySgLFYsAa35Y665uyo9Mqlep+SMY/8AIzVxnnK7c7V7RpdFG1UvWnOWV7IQMDNFEfhhnr+KW0+Q65xVvqDfl07erFdsZTjJ/wBcP0Nvnn7kovea0vRi+FxTr279MecX60kvSegTtyEEkAVZDJIYEMqyzIYFQABKLIqiyAlEkIkCwAAkkgw/lO058j0dUUXs1bvNtTabTipJ7ck1wxFSw+txA07rVpf5bf3VzB5jKooUXxXMQWxBrHQ9na75HCsLrma9K43t20qdV43N7ElJr07OO5nWJAgel4zUkpReYySlFrpi1lNBmEcl2n1Xt/kNSXztpHxM8Z22cRx+DKj3bHWZyZpjE4aYnMZVQRYEJRxIRYAQQixjWvmsCsbSWxLFxcKVOgl5UXjx6vdFP2uPWI4zgnhGWrtc73n726qRy485zcW/J2IJQTXXlwyvxGPTi08MolhYXQSao4Mrl6KvnbXNvcrP+Hr0qrxxcYSUpL0pNek9TRkmlKLymk01wafBnk49GcnWk/lWi7WbeZ0ofJ6mXl7VJ7GX2uKjL1iRkxDJIAqQyWQwIZDJZVgQAAJRZFSUBZEohBAWRICAk0Hys6Z+U6RlRi807GHMx6nVliVSS9OxH1De9xWVOFSpLyacJzfdFNv9jyrVrzqznVnvnVnOpN9c5ycpP2tgUABA5Ojb+rbVqdxQlsVKUtqL4p9DjJdMWm011M37q3pmF9a07qEXDb2ozg9+xOLcZJPpWVufV1cDzybm5MsrRlJ9dS5/3ZL+Cq7jGVtrOcM1B841E+O5n0KVwAUlNLv6hPAfDSV9C2oVbmpnYownOSisyais4S6zQOsOmqt9cTua27Piwpp5jSpJvZiuvjlvpbfctza4ty0dff8Ai13jui2aGLbOOMqruYxAAC5SG0+RHSmJ3djJ7pxjc0196OzCp+jp/lZqwznkdi3pZNcI2lw5d21TX7tEjfADIYEMhkshgQyrLMqBAAAFkVJQFkSiESgJLFSwHwv7fnaNWl52lUh+aLj/ACeVIppJSTUluknuakuKZ6yR5t180b8l0nd0ksRnVdeHU4VfH3dicpR9UDoAB1LpbSS6W3wSIEN4WX0G+9VbB21ja0JLZnCkpTj1VJNzmvzSZr/UrUqtUqwurynKlRpuM4UqixOtJb45jxjFPDeeOMYwzaxnvVRPCGi1TMcZC0ajXSVBQuXc2+koAB8L22jWpVaM/JrU505fhnFxf7nnmrSnCUqc1idOcoTXVOLcZL2pno011r7qbUq1JXtnDblPDr0I423NLHOQXS2ksx47srLbLrNeJxKm7TmMw1oC04SjJwnGUJReJQknGUX1NPemVNLOG1eRCwzO9u2t0Y07anLpy/HqL/aNVHoTkw0crfRVs8JSuVK6m8YzzjzBv1FBegkZaVZYqwIYYZDAhlSWQAAAAkgAWRKKosgJJONd3dKjF1K0404R4ynJRWertfYYTpnlGpwbhZ0+cw99Ssmo+rBYb9LXccV3KaN5adPpL2pnFqnP7/l9fuWwTWPKhqvWvri2rWcYTmqdSjXcqkYqEIy2qcn175zW5N70dvorWuleYjOfN1X/AKcmlGT+6+D7uJ2xTOoz8LqvSV2qu7cjE8muNGcmC3SvLlvhmnbRws9K25revVRmWidXbK0w7ahCE0sc7LNSq/XllruW47UFc11TvKYopp2gABw6AAAAAAAAcDSmhrW7WzdUIVcLCnJYqRX3ZrEo+hmHaT5MqUsytLidJ8ebrR5yHcpLEl6do2ADqK6qdpczTE7tIaT1J0nRUvmOdWH49tJVFn8O6f8ASeirSjGnTp0oY2acIQjjhsxior9jpDrtJ6xUbNPaqNz4qlBrbfbJcIrtf6lsX8fFDmnTVXKu7b4zyZgQa80ZykJycbuioxbezKjvajncmpPxu9Ndxm+j9JULmHOUKkai6dl74vqlF74vsZbRdpr2k1Oiv6b/AC04jnvH1hzGVZLKssZQgAAAAAAAHSayayUrGnv8etNN06KfH70upfv0dOOw0rfwtqFS4qcKcc7PTOXCMF2ttL0mj9J31S5rVK1VuUpyb7EujZXQktyRReu9yMRu9bsrs6NVXNdz4KfeeXX/ALl9tL6YuLufOV5yfHEM4jFP6KjwS/XrydcAYp48X2NFFNFMU0xiI2iBPHDcd/orWu5oYjJ89Bf6c25SS+7LivTldh0AIc3bVF2nu3IzH39Pk2do7Wu0rYUpczL6tXcvRJfzg7yE1JKUWpJ8JRaafc0aVOTaX9ak80as4P7s5RT71wfpOu88m92NRPG1Vj9p4x1/23GDW9nrnd08KfN1l96OHjvi0drba9xf+ZQa7YS/jH8k96Hn19lamnaM/wATH94ZmDG6Wutm/KVaPq02v0kfZa32PnJLvg/4J70M86LUx+nP0l3wOhet9j5yT9SR8qmudmuCqy/DCP8AMkMwRotTP6c/SWRgw6417gv8uhOXbKUf2SZ1V1rrdTyqcYUl0NQcmvTJtfoR3oaKOy9VVvTj+Zj+sy2M3je9yXF9COn0hrNZ0Mp1Odkvo0XGSz2y8le01vd6TuK3+bVlL7rnLd3LgvYcMjvN9nsWmON2rP7R1npDJtKa43FXMKPzEHuzB5qNdsuj2LvMblJttvxm22297b62VBD1rVm3Zp7tunH397hytH39a3mqtGc6c48HF8V1NcGux7jigLJiKoxO0tv6p62U71KlV2adwlnZXk1UlvcM8H1x/ffjJzz9QrzpzjUg3GUJKSnHc1JPKaN16s6XV5bQrblPyKqXBVUlnC6nlNd5ss3e9+Grd8j2t2bGnmLtr4J/LlPSfbZ2wANDxQAAAABgPKjfuMKFtF+W3Vks9CzGPo8v2I1ubU1s1SrX9dVo1aVOMIRgoyclLdtZ4R65M6Xwa3Hn6HvPhMV2iuquZw+s7O1ujsaWiiq5ETvO+8/L5fJgoM68Gtx9ooe8+EeDW4+0UPefCV+FXybvNNH6ke/RgoM68Gtx9ooe8+EeDW48/Q958I8G5yPNNH6ke/RgoM68Gtx5+3958I8Glx5+h7z4R4VfI800fqR79GCgzrwaXHn6HvPhHg0uPP2/vPhHhV8jzTR+pHv0YKDOvBpcefoe8+EeDS48/Q958I8KvkeaaP1I9+jBQZ14NLjz9D3nwjwaXHn6HvPhHhV8jzTR+pHv0YKDOvBpcefoe8+EeDS48/Q958I8K5yPNNH6ke/RgoM68Glx5+h7z4R4NLjz9v7z4R4VfI800fqR79GCgzrwa3Hn6HvPhHg1uPtFD3nwjwbnI800fqR79GCgzrwa3H2ih7z4R4Nbj7RQ958I8KvkeaaP1I9+jBTOOTC/cbirbt7qtNuMfvw3rHodT2It4Nbj7RQ958J2GgdR7i1uaVy61Fqm23GO3lxeU0sx6pHdFu5FUThm1uu0d7T124uRMzE433jjH5c2eAA3PjgAAAAAAAAAACSABJOSoAsTkqMgWyCuScgSMkZIyBbIK5AE5IyQAJIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/9k=" alt="" id="updimg">
+        <h3 id="username" style="margin-top: 20px;">fefe</h3>
+        
+        <h3 style="margin-top: 5px;">Password</h3>
+        <div style="margin-top: 10px; display: flex; justify-content: flex-start; align-items: flex-start; row-gap: 15px; flex-direction: column;">
+
+            <input type="password" placeholder="Update Name" id="pass1" style="padding-left:10px; width: 270px; height: 30px; border-radius: 7px; border: 1px solid gray;">
+            <input type="password" placeholder="Old Password" id="pass2" style="padding-left:10px; width: 270px; height: 30px; border-radius: 7px; border: 1px solid gray;">
+            <input type="password" placeholder="New Password" id="pass3" style="padding-left:10px; width: 270px; height: 30px; border-radius: 7px; border: 1px solid gray;">
+        </div>
+    <button style="width: 120px; height: 30px; margin-top: 15px; border-radius: 10px; border: 1px solid #7749F8; background-color: #662eff;color: white;">Update profile</button>    
+    </div>
+</div>
+<br><br><br><br><br>
+<script type="module" src="./js/update.js"></script>
+</body>
+</html>
